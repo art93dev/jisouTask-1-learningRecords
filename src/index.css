@@ -1,0 +1,76 @@
+/* index.css */
+
+/* 全体的なスタイル調整 */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+h1 {
+  color: #343a40;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+/* インプット部分の調整 */
+.input-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-box p {
+  margin: 0 0 5px 0;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 200px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* エラーメッセージのスタイル */
+.error-message {
+  color: red;
+  font-weight: bold;
+}
+
+/* リストのスタイル */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
